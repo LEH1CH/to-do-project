@@ -1,4 +1,4 @@
-# ToDoProject Digital Economy League
+# ToDoProject Digital Economy League (version 0.1)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.0.
 
