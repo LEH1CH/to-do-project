@@ -1,15 +1,3 @@
-import { Component, Input } from '@angular/core';
-import { TodoItem } from '../models/todo-item.model';
-
-@Component({
-  selector: 'app-todo-item',
-  templateUrl: './todo-item.component.html',
-  styleUrl: './todo-item.component.scss'
-})
-export class TodoItemComponent {
-  @Input()
-  item!: TodoItem;
-}
 import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
 import { TodoItem } from '../models/todo-item.model';
 import { TodoService } from '../todo.service';
